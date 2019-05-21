@@ -64,3 +64,19 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+header {
+	border: solid red;
+}
+
+.title {
+	border: solid blue;
+}
+
+.information {
+	border: solid green;
+}
+
+footer {
+	border: solid yellow;
+}
