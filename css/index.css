@@ -65,13 +65,90 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-header {
-	border: solid red;
+.main-container {
+	border: solid yellow;
+	width: 1000px;
+	margin-left: 180px;	
+	margin-top: 20px;
+	/* display: block; */
 }
 
+/*HEADER*/
+
+header {
+	border: solid green;
+	height:80px;	
+	/* display: block; */
+}
+
+.logo{
+	border: solid green;
+	width: 450px;
+	height:60px;
+	padding: 5px;
+	margin: 5px;
+	font-size: 43px;
+	/* display: block; */
+	/* box-sizing: border-box; */
+}
+
+nav {
+	border:solid green;
+	width: 450px;
+	height: 60px;
+	padding: 10px;
+	font-size: 15px;
+	color: yellow;
+	/* display: inline; */
+	/* position: absolute;
+	right: 80px; */
+	
+		
+}
+
+nav a {
+	margin: 10px;
+	color:gray;
+	
+}
+
+/*HEADER*/
+
+/*TITLE*/
 .title {
 	border: solid blue;
+	display: inline-block;
+	/* width: 1000px; */
+	height:410px;
+	
 }
+
+.second-title {
+	border: solid tomato;
+	text-align: center;
+	font-size: 50px;
+	position: relative;
+	top:20px;
+	left:20px;
+}
+
+button {
+	border: solid blueviolet;
+	position: relative;
+	top:50px;
+	left:180px;
+	
+}
+.home-image img {
+	border: solid green;
+	border-radius: 50%;
+	position: relative;
+	left: 700px;
+	bottom: 220px;
+}
+
+
+/*TITLE*/
 
 .information {
 	border: solid green;
