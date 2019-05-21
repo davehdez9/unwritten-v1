@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5 {
 header {
 	border: solid green;
 	height:80px;	
-	/* display: block; */
+	/* display: inline; */
 }
 
 .logo{
@@ -99,15 +99,15 @@ nav {
 	padding: 10px;
 	font-size: 15px;
 	color: yellow;
+	position: relative;
+	left:500px;
+	bottom: 65px;
 	/* display: inline; */
-	/* position: absolute;
-	right: 80px; */
-	
-		
 }
 
 nav a {
-	margin: 10px;
+	/* border: solid green; */
+	margin: 18px;
 	color:gray;
 	
 }
@@ -115,36 +115,38 @@ nav a {
 /*HEADER*/
 
 /*TITLE*/
+
 .title {
 	border: solid blue;
-	display: inline-block;
+	height:400px;
+	/* display: inline-block; */
 	/* width: 1000px; */
-	height:410px;
-	
 }
 
 .second-title {
-	border: solid tomato;
+	border: solid blue;
 	text-align: center;
-	font-size: 50px;
-	position: relative;
-	top:20px;
-	left:20px;
+	width: 450px;
+	height: 350px;
+	padding: 20px;
+	font-size: 55px;
+	margin: 5px;
 }
 
 button {
-	border: solid blueviolet;
-	position: relative;
-	top:50px;
-	left:180px;
-	
+	border: solid blue;
+	width: 150px;
+	height: 45px;
+	border-radius: 10px;
+	font-size: 15px;
+	color: gray;	
 }
 .home-image img {
-	border: solid green;
-	border-radius: 50%;
-	position: relative;
-	left: 700px;
-	bottom: 220px;
+	border: solid blue;
+	border-radius: 100%;
+	position: absolute;
+	bottom: 128px;
+	left: 750px;
 }
 
 
