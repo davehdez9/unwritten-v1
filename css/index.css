@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 .main-container {
-	border: solid yellow;
+	
 	width: 1000px;
 	margin-left: 180px;	
 	margin-top: 20px;
@@ -76,29 +76,29 @@ h1, h2, h3, h4, h5 {
 /*HEADER*/
 
 header {
-	border: solid green;
+	
 	height:80px;	
 	/* display: inline; */
 }
 
 .logo{
-	border: solid green;
+	
 	width: 450px;
 	height:60px;
 	padding: 5px;
 	margin: 5px;
-	font-size: 43px;
+	font-size: 30px;
 	/* display: block; */
 	/* box-sizing: border-box; */
 }
 
 nav {
-	border:solid green;
+	
 	width: 450px;
 	height: 60px;
 	padding: 10px;
 	font-size: 15px;
-	color: yellow;
+	
 	position: relative;
 	left:500px;
 	bottom: 65px;
@@ -109,7 +109,7 @@ nav a {
 	/* border: solid green; */
 	margin: 18px;
 	color:gray;
-	
+	text-decoration: none;
 }
 
 /*HEADER*/
@@ -117,14 +117,13 @@ nav a {
 /*TITLE*/
 
 .title {
-	border: solid blue;
+	
 	height:400px;
 	/* display: inline-block; */
 	/* width: 1000px; */
 }
 
 .second-title {
-	border: solid blue;
 	text-align: center;
 	width: 450px;
 	height: 380px;
@@ -134,7 +133,6 @@ nav a {
 }
 
 button {
-	border: solid blue;
 	width: 150px;
 	height: 45px;
 	border-radius: 10px;
@@ -142,7 +140,6 @@ button {
 	color: gray;	
 }
 .home-image img {
-	border: solid blue;
 	border-radius: 100%;
 	position: absolute;
 	bottom: 128px;
@@ -153,18 +150,12 @@ button {
 
 /*INFORMATION*/
 
-.information {
-	border: solid red;
-}
-
 .about-services {
-	border: solid red;
 	height: 150px;
 	margin: 5px;
 }
 
 .about {
-	border: solid red;
 	height: 120px;
 	width: 440px;
 	margin: 10px;
@@ -174,7 +165,6 @@ button {
 }
 
 .services {
-	border: solid red;
 	height: 120px;
 	width: 500px;
 	padding: 4px;
@@ -182,7 +172,7 @@ button {
 }
 
 .middle-img {
-	border: solid red;
+	
 	height: 200px;
 	width: 980px;
 	margin-left: 5px;
@@ -191,7 +181,7 @@ button {
 }
 
 .romms-booking-rates {
-	border: solid red;
+	
 	width: 980px;
 	margin:4px;
 	/* height: 50px;
@@ -199,7 +189,7 @@ button {
 }
 
 .rooms {
-	border: solid red;
+	
 	height: 130px;
 	width: 333px;
 	padding: 5px;
@@ -208,7 +198,7 @@ button {
 }
 
 .booking {
-	border: solid red;
+	
 	height: 130px;
 	width: 280px;
 	padding: 4px;
@@ -216,7 +206,7 @@ button {
 }
 
 .rates {
-	border: solid red;
+	
 	height: 118px;
 	width: 335px;
 	padding: 4px;
@@ -226,22 +216,20 @@ button {
 
 /*INFORMATION*/
 
-footer {
-	border: solid purple;
-}
+
 
 footer h4 {
 	font-size: 10px;
 }
 
 .contact-infomation {
-	border: solid purple;
+	
 	width: 250px;
 	height: 150px;
 	
 }
 
 .copyright {
-	border: solid purple;
+	padding-bottom: 25px;
 	text-align: center;
 }
