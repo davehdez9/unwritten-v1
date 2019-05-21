@@ -127,7 +127,7 @@ nav a {
 	border: solid blue;
 	text-align: center;
 	width: 450px;
-	height: 350px;
+	height: 380px;
 	padding: 20px;
 	font-size: 55px;
 	margin: 5px;
@@ -149,13 +149,99 @@ button {
 	left: 750px;
 }
 
-
 /*TITLE*/
 
+/*INFORMATION*/
+
 .information {
-	border: solid green;
+	border: solid red;
 }
 
+.about-services {
+	border: solid red;
+	height: 150px;
+	margin: 5px;
+}
+
+.about {
+	border: solid red;
+	height: 120px;
+	width: 440px;
+	margin: 10px;
+	padding: 4px;
+	display: inline-block;
+	
+}
+
+.services {
+	border: solid red;
+	height: 120px;
+	width: 500px;
+	padding: 4px;
+	display: inline-block;
+}
+
+.middle-img {
+	border: solid red;
+	height: 200px;
+	width: 980px;
+	margin-left: 5px;
+	
+	
+}
+
+.romms-booking-rates {
+	border: solid red;
+	width: 980px;
+	margin:4px;
+	/* height: 50px;
+	margin: 5px; */
+}
+
+.rooms {
+	border: solid red;
+	height: 130px;
+	width: 333px;
+	padding: 5px;
+	margin: 5px;
+	display: inline-block;
+}
+
+.booking {
+	border: solid red;
+	height: 130px;
+	width: 280px;
+	padding: 4px;
+	display: inline-block;
+}
+
+.rates {
+	border: solid red;
+	height: 118px;
+	width: 335px;
+	padding: 4px;
+	display: inline-block;
+}
+
+
+/*INFORMATION*/
+
 footer {
-	border: solid yellow;
+	border: solid purple;
+}
+
+footer h4 {
+	font-size: 10px;
+}
+
+.contact-infomation {
+	border: solid purple;
+	width: 250px;
+	height: 150px;
+	
+}
+
+.copyright {
+	border: solid purple;
+	text-align: center;
 }
