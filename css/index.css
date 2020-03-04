@@ -3,113 +3,186 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Open Sans Condensed', sans-serif;
+html,
+body {
+  height: 100%;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Special Elite', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Special Elite', cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
-
-/* Your code starts here! */
 
 .main-container {
-	
-	width: 1000px;
-	margin-left: 180px;	
-	margin-top: 20px;
-	/* display: block; */
+  width: 1000px;
+  margin-left: 180px;
+  margin-top: 20px;
 }
 
 /*HEADER*/
 
 header {
-	
-	height:80px;	
-	/* display: inline; */
+  height: 80px;
 }
 
-.logo{
-	
-	width: 450px;
-	height:60px;
-	padding: 5px;
-	margin: 5px;
-	font-size: 30px;
-	/* display: block; */
-	/* box-sizing: border-box; */
+.logo {
+  width: 450px;
+  height: 60px;
+  padding: 5px;
+  margin: 5px;
+  font-size: 30px;
 }
 
 nav {
-	
-	width: 450px;
-	height: 60px;
-	padding: 10px;
-	font-size: 15px;
-	
-	position: relative;
-	left:500px;
-	bottom: 65px;
-	/* display: inline; */
+  width: 450px;
+  height: 60px;
+  padding: 10px;
+  font-size: 15px;
+  position: relative;
+  left: 500px;
+  bottom: 65px;
 }
 
 nav a {
-	/* border: solid green; */
-	margin: 18px;
-	color:gray;
-	text-decoration: none;
+  margin: 18px;
+  color: gray;
+  text-decoration: none;
 }
 
 /*HEADER*/
@@ -117,33 +190,28 @@ nav a {
 /*TITLE*/
 
 .title {
-	
-	height:400px;
-	/* display: inline-block; */
-	/* width: 1000px; */
+  display: flex;
+  height: 400px;
 }
 
 .second-title {
-	text-align: center;
-	width: 450px;
-	height: 380px;
-	padding: 20px;
-	font-size: 55px;
-	margin: 5px;
+  text-align: center;
+  width: 450px;
+  height: 380px;
+  padding: 20px;
+  font-size: 55px;
+  margin: 5px;
 }
 
 button {
-	width: 150px;
-	height: 45px;
-	border-radius: 10px;
-	font-size: 15px;
-	color: gray;	
+  width: 150px;
+  height: 45px;
+  border-radius: 10px;
+  font-size: 15px;
+  color: gray;
 }
 .home-image img {
-	border-radius: 100%;
-	position: absolute;
-	bottom: 128px;
-	left: 750px;
+  border-radius: 100%;
 }
 
 /*TITLE*/
@@ -151,85 +219,70 @@ button {
 /*INFORMATION*/
 
 .about-services {
-	height: 150px;
-	margin: 5px;
+  height: 150px;
+  margin: 5px;
 }
 
 .about {
-	height: 120px;
-	width: 440px;
-	margin: 10px;
-	padding: 4px;
-	display: inline-block;
-	
+  height: 120px;
+  width: 440px;
+  margin: 10px;
+  padding: 4px;
+  display: inline-block;
 }
 
 .services {
-	height: 120px;
-	width: 500px;
-	padding: 4px;
-	display: inline-block;
+  height: 120px;
+  width: 500px;
+  padding: 4px;
+  display: inline-block;
 }
 
 .middle-img {
-	
-	height: 200px;
-	width: 980px;
-	margin-left: 5px;
-	
-	
+  height: 200px;
+  width: 980px;
+  margin-left: 5px;
 }
 
 .romms-booking-rates {
-	
-	width: 980px;
-	margin:4px;
-	/* height: 50px;
-	margin: 5px; */
+  width: 980px;
+  margin: 4px;
 }
 
 .rooms {
-	
-	height: 130px;
-	width: 333px;
-	padding: 5px;
-	margin: 5px;
-	display: inline-block;
+  height: 130px;
+  width: 333px;
+  padding: 5px;
+  margin: 5px;
+  display: inline-block;
 }
 
 .booking {
-	
-	height: 130px;
-	width: 280px;
-	padding: 4px;
-	display: inline-block;
+  height: 130px;
+  width: 280px;
+  padding: 4px;
+  display: inline-block;
 }
 
 .rates {
-	
-	height: 118px;
-	width: 335px;
-	padding: 4px;
-	display: inline-block;
+  height: 118px;
+  width: 335px;
+  padding: 4px;
+  display: inline-block;
 }
-
 
 /*INFORMATION*/
 
-
-
 footer h4 {
-	font-size: 10px;
+  font-size: 10px;
 }
 
 .contact-infomation {
-	
-	width: 250px;
-	height: 150px;
-	
+  width: 250px;
+  height: 150px;
 }
 
 .copyright {
-	padding-bottom: 25px;
-	text-align: center;
+  padding-bottom: 25px;
+  text-align: center;
 }
